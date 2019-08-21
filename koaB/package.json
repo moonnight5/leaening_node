@@ -1,0 +1,18 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "- SQL\r CREATE INSERT UPDATE DELETE\r SELECT * FROM t-user where is_delete = 1;\r SELECT * FROM t-user where id = 123;   因为是主键 所以只作用于id\r 索引\r PRIMARY KEY  伴随autoincrement\r UNIQUE KEY   \r 数据类型\r int(11) varchar(30) tinyint(1) datetime\r 存储类型 \r InnoDB Memory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0"
+  }
+}
